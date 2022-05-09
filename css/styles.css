@@ -1,0 +1,205 @@
+/*************************CLASS ADDRESS********************************/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+p {
+ color: #8f8f8f;
+}
+
+/*************************ID ADDRESS********************************/
+/*************** FIRST CONTAINER ***************/
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/*************** SECOND CONTAINER ***************/
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+/*************** THIRD CONTAINER ***************/
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+/*************** FORTH CONTAINER ***************/
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/*************** FIFTH CONTAINER ***************/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+/*************** SIXTH CONTAINER ***************/
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+#footer {
+  background-color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 7% 15% 2%;
+}
+
+/*************************CLASS ADDRESS********************************/
+/*************** FIRST CONTAINER ***************/
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-brand {
+  font-family: 'Ubuntu';
+}
+
+.nav-item {
+  font-weight: lighter;
+  padding: 0 18px;
+}
+
+.title-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.download-btn {
+  margin: 3% 5% 3% 0;
+}
+
+.rotated {
+  transform: rotate(30deg);
+}
+
+.image-dog {
+  margin-left: 10%;
+  width: 18%;
+  position: absolute;
+}
+
+/*************** SECOND CONTAINER ***************/
+.second-container {
+  text-align: center;
+  padding: 10% 15%;
+}
+
+.features-icon {
+  margin-bottom: 3px;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-subtitle {
+  font-size: 1.5rem;
+}
+
+.features-para {
+  width: 60%;
+  margin: 2px auto;
+  line-height: 1.5;
+}
+
+/*************** THIRD CONTAINER ***************/
+.carousal-text {
+  padding: 7% 15%;
+}
+
+.testimonials-subtitle {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*************** FORTH CONTAINER ***************/
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*************** FIFTH CONTAINER ***************/
+.pricing-colomn {
+  padding: 3% 2%;
+}
+
+.pricing-subtitle {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.price {
+  font-weight: bolder;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/*************** SIXTH CONTAINER ***************/
+.cta-title {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.footer-link {
+  color: #000;
+  margin: 10px;
+}
+
+.footer-text {
+  margin-top: 2%;
+}
+
+/*************************MEDIA ADDRESS********************************/
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .image-dog {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1177px) {
+  .image-dog {
+    transform: rotate(20deg);
+    width: 25%;
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1010px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
